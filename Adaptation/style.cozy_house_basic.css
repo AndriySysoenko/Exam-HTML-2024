@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*------------------header-----------------------------------------------------*/
+header{
+    width: 1280px;
+    height: 908px;
+    background: radial-gradient(237.5% 111.8% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header>nav{
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px auto;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.logo p:first-of-type{
+    color: #F1CDB3;
+    font-family: "Georgia", serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 110%; /* 35.2px */
+    letter-spacing: 1.92px;
+}
+.logo p:last-of-type{
+    color: #FFF;
+    font-family: "Arial", serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+}
+header>nav>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: #CDCDCD;
+    font-family: "Arial", serif;;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%; /* 24px */
+}
+header>nav>ul>li>a:hover{
+    border-bottom:3px solid #F1CDB3;
+    color: #FAFAFA;
+}
+header>section{
+    width: 1200px;
+    height: 728px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+}
+header>section>div>h1{
+    width: 310px;
+    color: #FFF;
+    font-family: "Georgia", serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 130%; /* 57.2px */
+    margin-bottom: 42px;
+}
+header>section>div>p{
+    width: 460px;
+    color: #CDCDCD;
+    font-family: "Arial", serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%; /* 24px */
+    margin-bottom: 42px;
+}
+header>section>div>button{
+    border-radius: 100px;
+    background: #F1CDB3;
+    border: none;
+    display: flex;
+    padding: 15px 45px;
+    justify-content: center;
+    align-items: center;
+    color: #292929;
+    font-family: "Georgia", serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%; /* 22.1px */
+    letter-spacing: 1.02px;
+}
+/*--------------------------About the shelter---------------------------------*/
+main{
+    width: 1280px;
+    height: 588px;
+    background: #FFF;
+    padding: 80px 40px 100px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main>section{
+    width: 1200px;
+    height: 408px;
+    padding: 0 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+main>section>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+main>section>div>h2{
+    width: 370px;
+    color: #545454;
+    font-family: "Georgia", serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+main>section>div>p{
+    color: #4C4C4C;
+    font-family: "Arial", serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%; /* 24px */
+}
+/*--------------------------Our pets----------------------*/
+article{
+    width: 1280px;
+    height: 877px;
+    padding: 80px 40px 100px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F6F6F6;
+}
+article>section{
+    width: 1200px;
+    height: 697px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+    font-family: "Georgia", serif;
+}
+article>section>h2{
+    width: 400px;
+    height: 90px;
+    color: #545454;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+.cards{
+    width: 1200px;
+    height: 435px;
+    padding: 0 105px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 90px;
+}
+.cards>div{
+    width: 270px;
+    height: 435px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 9px;
+    background: #FAFAFA;
+}
+.cards>div>p{
+    color: #545454;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+.cards>div>button{
+    padding: 15px 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    background: #FAFAFA;
+    color: #292929;
+    font-family: "Georgia", serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%; /* 22.1px */
+    letter-spacing: 1.02px;
+}
+article>section>button{
+    padding: 15px 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #F1CDB3;
+    border: none;
+    color: #292929;
+    font-family: "Georgia", serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 130%; /* 22.1px */
+    letter-spacing: 1.02px;
+}
+/*--------------------------Help the shelter-------------------------------------*/
+aside{
+    width: 1280px;
+    height: 611px;
+    padding: 80px 40px 100px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+}
+aside>section{
+    width: 1200px;
+    height: 431px;
+    padding: 0 87px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+}
+aside>section>h2{
+    width: 310px;
+    color: #545454;
+    text-align: center;
+    font-family: "Georgia", serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: repeat(10, 1fr) ;
+    gap: 55px;
+    grid-template-areas:
+    'food food transportation transportation toys toys cups cups shampoos shampoos'
+    'vitamins vitamins vitamins medicines medicines collars collars areas areas areas';
+}
+.food, .transportation, .toys, .cups, .shampoos,
+.vitamins, .medicines, .collars, .areas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    color: #545454;
+    text-align: center;
+    font-family: "Georgia", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+}
+.food{
+    grid-area: food;
+}
+.transportation{
+    grid-area: transportation;
+}
+.toys{
+    grid-area: toys;
+}
+.cups{
+    grid-area: cups;
+}
+.shampoos{
+    grid-area: shampoos;
+    padding-left: 40px;
+}
+.vitamins{
+    grid-area: vitamins;
+    padding-left: 70px;
+}
+.medicines{
+    grid-area: medicines;
+    padding-right: 40px;
+}
+.collars{
+    grid-area: collars;
+    text-align: left;
+    letter-spacing: normal;
+}
+.areas{
+    grid-area: areas;
+    padding-right: 50px;
+}
+/*---------------------You can also make a donation--------------------------------------*/
+address{
+    width: 1280px;
+    height: 462px;
+    padding: 80px 182px 100px 183px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F6F6F6;
+}
+address>section{
+    width: 915px;
+    height: 282px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+address>section>div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+address>section>div>h3{
+    width: 300px;
+    color: #545454;
+    font-family: "Georgia", serif;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+address>section>div>span{
+    color: #545454;
+    font-family: "Georgia", serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 110%; /* 16.5px */
+    letter-spacing: 0.9px;
+}
+.number_card{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    gap: 10px;
+    border-radius: 9px;
+    background: #F1CDB3;
+}
+.number_card>p{
+    color: #545454;
+    font-family: "Georgia", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+}
+address>section>div>p{
+    width: 380px;
+    color: #B2B2B2;
+    font-family: "Arial", serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+}
+/*-------------------------Contacts----------------------------*/
+footer{
+    width: 1280px;
+    height: 350px;
+    background: radial-gradient(549.89% 73.65% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+footer>section{
+    width: 1200px;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 160px;
+    /*background: yellow;*/
+}
+/*footer>section>img{*/
+/*    width: 300px;*/
+/*    height: 310px;*/
+/*}*/
+.contact{
+    width: 308px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    font-family: "Georgia", serif;
+}
+.contact>h3{
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+.contact>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.contact>div>a{
+    text-decoration: none;
+    color: #F1CDB3;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+}
+.location{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 34px;
+    font-family: "Georgia", serif;
+}
+.location>h3{
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+.location>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.location>div>a{
+    display: inline-block;
+    width: 260px;
+    text-decoration: none;
+    color: #F1CDB3;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+}
