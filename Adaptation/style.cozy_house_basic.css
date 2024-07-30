@@ -412,12 +412,7 @@ footer>section{
     justify-content: center;
     align-items: center;
     gap: 160px;
-    /*background: yellow;*/
 }
-/*footer>section>img{*/
-/*    width: 300px;*/
-/*    height: 310px;*/
-/*}*/
 .contact{
     width: 308px;
     display: flex;

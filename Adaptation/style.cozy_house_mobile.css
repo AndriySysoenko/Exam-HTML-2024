@@ -1,0 +1,235 @@
+@media screen and (max-width: 480px){
+    /*------------------header-----------------------------------------------------*/
+    header{
+        width: 320px;
+        height: 823px;
+    }
+    header>nav {
+        width: 200px;
+        margin: 30px 126px 60px 10px;
+    }
+    header>nav>ul{
+        display: none;
+    }
+    header>section{
+        width: 300px;
+        height: 673px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 105px;
+    }
+    header>section>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    header>section>div>h1 {
+        width: 200px;
+        font-size: 25px;
+        text-align: center;
+    }
+    header>section>div>p {
+        width: 300px;
+        text-align: center;
+    }
+    header>section>img{
+        width: 260px;
+        height: 272px;
+    }
+    /*--------------------------About the shelter---------------------------------*/
+    main {
+        width: 320px;
+        height: 974px;
+        padding: 42px 10px;
+    }
+    main>section {
+        width: 300px;
+        height: 890px;
+        gap: 42px;
+        flex-direction: column-reverse;
+    }
+    main>section>div>h2 {
+        width: 300px;
+        font-size: 25px;
+        text-align: center;
+    }
+    main>section>div>p {
+        width: 270px;
+    }
+    main>section>img{
+        width: 260px;
+        height: 354px;
+    }
+    /*--------------------------Our pets----------------------*/
+    article {
+        width: 320px;
+        height: 791px;
+        padding: 42px 10px;
+    }
+    article>section {
+        width: 300px;
+        height: 706px;
+        justify-content: center;
+        gap: 0;
+    }
+    article>section>h2 {
+        width: 300px;
+        height: 64px;
+        font-size: 25px;
+        margin-bottom: 42px;
+    }
+    .cards {
+        width: 270px;
+        height: 435px;
+        padding: 0;
+        gap: 0;
+        margin-bottom: 72px;
+    }
+    .cards>.jennifer{
+        display: none;
+    }
+    .cards>.woody{
+        display: none;
+    }
+    article>section>button{
+        margin-bottom: 42px;
+    }
+    /*--------------------------Help the shelter-------------------------------------*/
+    aside {
+        width: 320px;
+        height: 745px;
+        padding: 42px 10px;
+    }
+    aside>section {
+        width: 300px;
+        height: 661px;
+        padding: 0;
+        gap: 42px;
+    }
+    aside>section>h2 {
+        width: 240px;
+        font-size: 25px;
+    }
+    .grid {
+        width: 300px;
+        height: 555px;
+        display: grid;
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        grid-template-areas:
+    'food transportation'
+    'toys cups'
+    'shampoos vitamins'
+    'medicines collars'
+    'areas areas';
+    }
+    .food, .transportation, .toys, .cups, .shampoos,
+    .vitamins, .medicines, .collars, .areas{
+        gap: 20px;
+        font-size: 15px;
+    }
+    .food>svg, .transportation>svg, .toys>svg, .cups>svg, .shampoos>svg,
+    .vitamins>svg, .medicines>svg, .collars>svg, .areas>svg{
+        width: 50px;
+        height: 50px;
+    }
+    .shampoos{
+        grid-area: shampoos;
+        padding-left: 0;
+    }
+    .vitamins{
+        grid-area: vitamins;
+        padding-left: 0;
+    }
+    .medicines{
+        grid-area: medicines;
+        padding-right: 0;
+    }
+    .collars{
+        grid-area: collars;
+        text-align: left;
+        letter-spacing: normal;
+    }
+    .areas{
+        grid-area: areas;
+        padding-right: 160px;
+    }
+    /*---------------------You can also make a donation--------------------------------------*/
+    address {
+        width: 320px;
+        height: 542px;
+        padding: 42px 10px;
+    }
+    address>section{
+        width: 300px;
+        height: 460px;
+        flex-direction: column-reverse;
+        gap: 42px;
+    }
+    address>section>div{
+        align-items: center;
+    }
+    address>section>div>h3 {
+        width: 240px;
+        font-size: 25px;
+        text-align: center;
+    }
+    address>section>div>span{
+        width: 280px;
+        letter-spacing: 0;
+        text-align: center;
+    }
+    .number_card {
+        width: 284px;
+    }
+    .number_card>p{
+        font-size: 15px;
+    }
+    address>section>div>p {
+        width: 280px;
+    }
+    address>section>img{
+        width: 260px;
+        height: 136px;
+    }
+    /*-------------------------Contacts----------------------------*/
+    footer {
+        width: 320px;
+        height: 809px;
+    }
+    footer>section {
+        width: 300px;
+        height: 780px;
+        flex-direction: column;
+        gap: 42px;
+    }
+    .contact {
+        width: 300px;
+        align-items: center;
+    }
+    .contact>h3{
+        width: 280px;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        text-align: center;
+    }
+    .location {
+        width: 300px;
+        align-items: center;
+        gap: 40px;
+    }
+    .location>h3{
+        width: 280px;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        text-align: center;
+    }
+    footer>section>img{
+        width: 260px;
+        height: 268px;
+    }
+}
