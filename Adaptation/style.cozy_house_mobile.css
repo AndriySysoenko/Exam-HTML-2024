@@ -5,8 +5,8 @@
         height: 823px;
     }
     header>nav {
-        width: 200px;
-        margin: 30px 126px 60px 10px;
+        width: 190px;
+        margin: 30px 120px 60px 10px;
     }
     header>nav>ul{
         display: none;
@@ -52,9 +52,10 @@
         flex-direction: column-reverse;
     }
     main>section>div>h2 {
-        width: 300px;
+        width: 280px;
         font-size: 25px;
         text-align: center;
+        letter-spacing: 1.5px;
     }
     main>section>div>p {
         width: 270px;
@@ -79,6 +80,7 @@
         width: 300px;
         height: 64px;
         font-size: 25px;
+        letter-spacing: 1.5px;
         margin-bottom: 42px;
     }
     .cards {
@@ -110,8 +112,9 @@
         gap: 42px;
     }
     aside>section>h2 {
-        width: 240px;
+        width: 220px;
         font-size: 25px;
+        letter-spacing: 1.5px;
     }
     .grid {
         width: 300px;
@@ -174,8 +177,9 @@
         align-items: center;
     }
     address>section>div>h3 {
-        width: 240px;
+        width: 220px;
         font-size: 25px;
+        letter-spacing: 1.5px;
         text-align: center;
     }
     address>section>div>span{
@@ -184,10 +188,11 @@
         text-align: center;
     }
     .number_card {
-        width: 284px;
+        width: 280px;
     }
-    .number_card>p{
+    .number_card>h4{
         font-size: 15px;
+        letter-spacing: 0.9px;
     }
     address>section>div>p {
         width: 280px;

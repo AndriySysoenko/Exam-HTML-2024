@@ -132,7 +132,7 @@ main>section{
 main>section>div{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     gap: 25px;
 }
@@ -379,7 +379,7 @@ address>section>div>span{
     border-radius: 9px;
     background: #F1CDB3;
 }
-.number_card>p{
+.number_card>h4{
     color: #545454;
     font-family: "Georgia", serif;
     font-size: 20px;
@@ -463,15 +463,14 @@ footer>section{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 19px;
 }
 .location>div>a{
     display: inline-block;
-    width: 260px;
+    width: 262px;
     text-decoration: none;
     color: #F1CDB3;
     font-size: 20px;
     font-weight: 400;
     line-height: 115%; /* 23px */
-    letter-spacing: 1.2px;
 }
